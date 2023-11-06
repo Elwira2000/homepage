@@ -1,0 +1,23 @@
+.table__caption {
+    padding: 20px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table__cell {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell:hover {
+    background-color: lightgreen;
+}
+
+.table__header {
+    background-color: darkgreen;
+    color: white;
+}

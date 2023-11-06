@@ -1,0 +1,33 @@
+.article__paragraph {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.article__imageCenter {
+    text-align: center;
+ }
+ 
+.article__imageStyle {
+     border: 10px solid black;
+     outline: 5px solid rgb(21, 20, 20);
+     box-shadow: 5px 5px 200px 14px #5EA54C;
+ }
+
+.article__container {
+    overflow-x: auto;
+}
+
+.article__list {
+    list-style-type: "🔦";
+    margin: 5px;
+    padding: 15px;
+}
+
+.article__list--secondary {
+    list-style-type: circle;
+}
+
+.article__listItem {
+    margin: 10px 0;
+    padding: 2px;
+}

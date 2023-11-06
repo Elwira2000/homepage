@@ -1,0 +1,22 @@
+.navigation {
+    line-height: 1.7;
+    background-color: black;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.navigation__list {
+    list-style: none;
+    text-align: end;
+}
+
+.navigation__button {
+    font-family: 'Sometype Mono', monospace;
+    font-size: 16px;
+    background-color: black;
+    color: lightgreen;
+    border: solid;
+    padding: 7px;
+    cursor: pointer;
+}

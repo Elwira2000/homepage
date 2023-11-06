@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section {
+    background-color: rgba(36, 40, 41, 0.751);
+    max-width: 1000px;
+    padding: 20px 50px;
+    margin: 20px auto;
+}
+
+.section__header {
+    color: darkgreen;
+}
+
+.header {
+    font-family: 'Nosifer', sans-serif;
+    color: rgb(255 0 0);
+    text-align: center;
+    text-shadow: 1px 6px 3px black;
+    background-color: rgba(36, 40, 41, 0.751);
+    max-width: 1000px;
+    padding: 20px 50px;
+    margin: 20px auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: 'Sometype Mono', monospace;
+    text-shadow: 1px 2px  5px black;
+}
+
+.aside__list {
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(0, 228, 0);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: rgb(255 0 0);
+}
+
+.grey {
+    background-color:  rgba(36, 40, 41, 0.751);
+    color: white;
+}
