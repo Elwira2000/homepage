@@ -1,11 +1,22 @@
-console.log("Witam wszystkich wtajemniczonych!");
+{
+    const welcome = () => {
+        console.log("Witam wszystkich wtajemniczonych!");
+    };
 
-let button = document.querySelector(".js-navigationButton");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("grey");
+        body.classList.toggle("grey");
+        themeName.innerText = body.classList.contains("grey") ? "czarne" : "szare";
+    };
 
-    themeName.innerText = body.classList.contains("grey") ? "czarne" : "szare";
-});
+    const init = () => {
+        const button = document.querySelector(".js-navigationButton");
+        button.addEventListener("click", toggleBackground);
+
+        welcome ();
+    };
+
+    init ();
+}
